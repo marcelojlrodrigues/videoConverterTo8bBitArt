@@ -6,31 +6,60 @@ This code convert any video to 8 bit art
 
 ## A linguagem de programação escolhida foi a python, pois ela apresenta bibliotecas mais práticas para este fim.
 
+# 1. Escopo
+
 Este é um projeto idealizado por mim, voltado para a cultura 8 bit art. Visto que há muitas opções de se converter imagens, mas não vídeos, então pensei em uma maneira que pudesse converter vídeos inteiros, já que após pesquisar, não consegui opções que fizesse isso, e as que encontrei não funcionavam bem. Diante dessa necessidade, cheguei no seguinte raciocínio:
 
-1. O arquivo de vídeo, nada mais é do que uma série de imagens sobrepostas em uma determinada velocidade, dentro de um determinado tempo, e isso é conhecido como FPS (frames per second), o que nos dá a impressão de "movimento".
+# 2. A solução
 
-2. Logo, para converter o vídeo aplicando efeitos, constatei, que eu poderia dividir a solução do código em 3 etapas:
+O arquivo de vídeo, nada mais é do que uma série de imagens sobrepostas em uma determinada velocidade, dentro de um determinado tempo, e isso é conhecido como FPS (frames per second), o que nos dá a impressão de "movimento".
 
-    1. Pegar esse vídeo e extrair cada frame e armazena-los em uma pasta mantendo a ordem numerica sequencial para cada um deles; (Script passo 1).
+- Com ajuda da IA, validei o meu raciocínio proposto para me certificar se ele fazia sentido e se poderia melhorar algo nele, para assim partir para a implementação.
 
-    2. Após isso deveria pegar cada um desses frames e executar um outro algoritmo que pudesse aplicar o efeito respectivo em cada uma dessas imagens, armezando elas em uma outra pasta, para isso precisei pesquisar e testar algumas bibliotecas que pudessem aplicar esse efeito da 8 bit art, então encontrei uma que me agradou; (Script passo 2).
+Após feito isso, percebi que o processo poderia ser divido em 3 etapas:
 
-    3. E por último, após aplicado ter todos os frames aplicados o efeito, só era preciso, juntar de volta eles para gerar o novamente o vídeo, preservando o fps original, assim geraria o novo arquivo de vídeo com o efeito aplicado :-). (Script passo 3).
+    I. Pegar esse vídeo e extrair cada frame e armazena-los em uma pasta mantendo a ordem numerica sequencial para cada um deles, pois isso seria importante no futuro; (Script passo 1).
 
-3. Como eu sei que demoraria muito para chegar a esse resultado apenas buscando informações no google, e tinha apenas um dia para fazer isso (um domingo), resolvi aproveitar o uso do chat gpt, para ganhar tempo e testá-la, portanto segui estes passos:
+    II. Após isso deveria pegar cada um desses frames e executar um outro algoritmo que pudesse aplicar o efeito respectivo em cada deles, armazenando-as em uma outra pasta. Para aplicar os efeitos, precisei pesquisar e testar algumas bibliotecas que pudessem, então encontrei uma que me agradou mais; (Script passo 2).
 
-    1. Validei o meu raciocínio proposto para a solução para me certificar se ele fazia sentido e se poderia melhorar algo;
+    III. E por último, após aplicado o efeito em todos os frames, só era preciso, juntar de volta eles para gerar novamente o vídeo, agora convertido, preservando o fps original. :-). (Script passo 3).
 
-    2. Fui guiando a IA, para que gerasse os códigos de cada etapa que eu necessitava, e corrigindo os eventuais bugs que iam surgindo, até chegar num código funcional;
 
-    3. O Objetivo foi atingido, embora por exigir muito processamento computacional, o processo começou a demorar muito, então tive que reduzir a qualidade da imagem convertida para poder executá-lo em menor tempo, dado as limitações do meu Hardware :-/;
 
-    4. Então com a ajuda da própria IA, fui buscando maneiras de otimizar este código, como percebi que o uso da CPU equanto executa o código era baixo, sugeri que não estava sendo utilizado todo o poder de processamento da minha máquina, então ela criou um algoritmo otimizado que ao invés de usar apenas 1 núcleo ele usava os 4 núcleos disponíveis, dessa maneira, apesar de não ter tido tempo de criar métricas para medir, percebi que o tempo de processamento foi reduzido, logo, a sua performace melhorou.
+# 3. A implementação
 
-4. Resultado obtive êxito, apesar do tempo que leva para processar um vídeo curto, ele funciona conforme esperado, carece de melhorias.
 
-5. Próximos passos e melhorias:
+- Fui guiando a IA, para que gerasse os códigos de cada etapa que eu necessitava, e corrigindo os eventuais bugs que iam surgindo conforme testa os scripts, até chegar num código funcional;
+
+Então cheguei na primeiras versão funcional desse código o/.
+
+Mas não era o suficiente, pois o processo estava demsiadamente demorado, então precisei passar para a etapa seguinte, para otimizar o código.
+
+# 4. Melhorando a performace
+
+    Como após chegar na primeira versão funcional, percebi que o seu processamento estava demorando muito para finalizar, busquei maneiras de otimizar o tempo de processamento com ajuda da IA, aplicamos algumas soluções:
+
+        I. Diminuir a qualidade da imagem convertida;
+
+        II. Usar mais de um núcleo do computador no processamento do código;
+
+        III. Preparar o código para que pudesse realizar o processo de conversão de cada imagem de forma síncrona.
+
+
+Após aplicar as melhorias no código, o objetivo da performace também foi atingido.
+
+
+## E você pode conferir nesses dois links, os vídeos convertidos com uso desses scripts:
+
+O vídeo do meme da dança da personagem Vandinha interpretado pela Jenna Ortege da séria netflix:
+
+[Vídeo 1](https://www.youtube.com/shorts/2BafQtU3gvc "Bloody Mary Dance | Jenna Ortega Meme")
+
+O famoso meme do árabe dançando:
+
+[Vídeo 2](https://www.youtube.com/shorts/ccbopuxU5es "Arabe dançando")
+# 6.  Futuras melhorias
+
     1. Organizar melhor este código;
     2. Buscar outras maneiras de otimizá-lo;
     3. Criar uma interface;
@@ -39,19 +68,17 @@ Este é um projeto idealizado por mim, voltado para a cultura 8 bit art. Visto q
     6. Criar métricas e raelizar testes para medir quanto tempo está sendo ganhado no algoritmo otimizado em relação ao que não está otimizado.
     7. Criar uma estimativa de quanto tempo irá demorar para terminar o processo, pois atualmente eu apenas acompanho isso, nas informações do console.
 
-6. Você também pode testá-lo, mas use vídeos curtos 
+# 7. Espero poder contar com a sua ajuda para evoluir esse programa e criar novas funcionalidades e até mesmo um grande aplicativo!
 
-# Veja exemplos de vídeos convertidos:
-## Converti 2 memes bem famosos utlimamente:
 
-A dança do personagem Vandinha interpretado pela Jenna Ortege, na séria da netflix:
+Obs.: Como disse, só tive tempo para trabalhar apenas 1 dias nele, portanto, muitas coisas precisam ser melhoradas, como não entendo muito de python, podem ser que hajam equívocos, erros ou apenas melhorias mesmo a serem feitas no código.
 
-[Vídeo 1](https://www.youtube.com/shorts/2BafQtU3gvc "Bloody Mary Dance | Jenna Ortega Meme")
+# 8. O Aprendizado
 
-E esse meme, que se tornou extremamente viral, do árabe dançando:
+Eu destaco alguns pontos nesse exercício que eu propus:
 
-[Vídeo 2](https://www.youtube.com/shorts/ccbopuxU5es "Arabe dançando")
+    I. Ter um raciocínio crítico para poder chegar numa solução eficaz, mais do que pesquisas, foi necessário resgatar na memória informações de forma lógica para tal;
 
-Obs.: Os dois foram convertidos utilizando o mesmo algoritmo presente aqui nesse repositório! Como disse, só consegui trabalhar apenas 1 dias nele, portanto, muitas coisas precisam ser melhoradas, como não entendo muito de python, podem ser que hajam equívocos ou melhorias a serem feitas nesses códigos.
-
-## O que eu destaco nesse aprendizado, é que apesar de ter criado um algoritmo para converte-lo em arte 8 bit, de fato ele poderia ser convertido para outras finalidades, como por exemplo: vídeos p/b, videos cartoons, enfim, desde que exista um algoritmo que possa aplicar o efeito esperado, visto que o processamento dessa etapa leva muito tempo, já que cada segundo possa ter cerca de 60 frames.
+    II. A IA é muito eficaz, mas geralmente apenas responde exatamente o que lhe foi perguntado e algumas vezes pode dar códigos que contém alguns erros, mas ela é capaz de cruzar informações se você pedir isso.
+    
+    III. O Algoritmo serve para a finalidade de converter vídeos em arte 8 bit, mas poderia ser muito reaproveitado se no processo de conversão fossem aplicados efeitos diferentes.

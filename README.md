@@ -53,11 +53,11 @@ Após aplicar as melhorias no código, o objetivo da performace também foi atin
 
 O vídeo do meme da dança da personagem Vandinha interpretado pela Jenna Ortege da séria netflix:
 
-- [Vídeo 1](https://www.youtube.com/shorts/2BafQtU3gvc "Bloody Mary Dance | Jenna Ortega Meme"){:target="_blank"}
+- [Vídeo 1](https://www.youtube.com/shorts/2BafQtU3gvc "Bloody Mary Dance | Jenna Ortega Meme"){ :target="_blank"}
 
 O famoso meme do árabe dançando:
 
-- [Vídeo 2](https://www.youtube.com/shorts/ccbopuxU5es "Arabe dançando"){:target="_blank"}
+- [Vídeo 2](https://www.youtube.com/shorts/ccbopuxU5es "Arabe dançando"){ :target="_blank"}
 # 6.  Futuras melhorias
 
 1. Organizar melhor este código;

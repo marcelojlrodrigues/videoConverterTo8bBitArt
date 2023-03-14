@@ -41,13 +41,7 @@ Este é um projeto idealizado por mim voltado para a cultura 8 bit art. Visto qu
 
 # Veja exemplos de vídeos convertidos:
 
-<iframe src="https://www.youtube.com/shorts/2BafQtU3gvc"></iframe>
-    
-<iframe src="https://www.youtube.com/shorts/ccbopuxU5es"></iframe>
+<a href="https://www.youtube.com/shorts/2BafQtU3gvc"></a>
 
-<video src="videosConvertidos/bloddy_dance_video_in_8bits.mp4"></video>
-
-<video src="videosConvertidos/video_in_8bits.mp4"></video>
-
-
+<a href="https://www.youtube.com/shorts/ccbopuxU5es"></a>
    

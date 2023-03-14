@@ -18,11 +18,11 @@ O arquivo de vídeo, nada mais é do que uma série de imagens sobrepostas em um
 
 Após feito isso, percebi que o processo poderia ser divido em 3 etapas:
 
-    I. Pegar esse vídeo e extrair cada frame e armazena-los em uma pasta mantendo a ordem numerica sequencial para cada um deles, pois isso seria importante no futuro; (Script passo 1).
+I. Pegar esse vídeo e extrair cada frame e armazena-los em uma pasta mantendo a ordem numerica sequencial para cada um deles, pois isso seria importante no futuro. Isso é feito pelo script do passo 1;
 
-    II. Após isso deveria pegar cada um desses frames e executar um outro algoritmo que pudesse aplicar o efeito respectivo em cada deles, armazenando-as em uma outra pasta. Para aplicar os efeitos, precisei pesquisar e testar algumas bibliotecas que pudessem, então encontrei uma que me agradou mais; (Script passo 2).
+II. Após isso deveria pegar cada um desses frames e executar um outro algoritmo que pudesse aplicar o efeito respectivo em cada deles, armazenando-as em uma outra pasta. Para aplicar os efeitos, precisei pesquisar e testar algumas bibliotecas que pudessem, então encontrei uma que me agradou mais. Isso é feito pelo script do passo 2;
 
-    III. E por último, após aplicado o efeito em todos os frames, só era preciso, juntar de volta eles para gerar novamente o vídeo, agora convertido, preservando o fps original. :-). (Script passo 3).
+III. E por último, após aplicado o efeito em todos os frames, só era preciso, juntar de volta eles para gerar novamente o vídeo, agora convertido, preservando o fps original. :-). (Script passo 3).
 
 
 
@@ -37,13 +37,13 @@ Mas não era o suficiente, pois o processo estava demsiadamente demorado, então
 
 # 4. Melhorando a performace
 
-    Como após chegar na primeira versão funcional, percebi que o seu processamento estava demorando muito para finalizar, busquei maneiras de otimizar o tempo de processamento com ajuda da IA, aplicamos algumas soluções:
+Como após chegar na primeira versão funcional, percebi que o seu processamento estava demorando muito para finalizar, busquei maneiras de otimizar o tempo de processamento com ajuda da IA, aplicamos algumas soluções:
 
-        I. Diminuir a qualidade da imagem convertida;
+I. Diminuir a qualidade da imagem convertida;
 
-        II. Usar mais de um núcleo do computador no processamento do código;
+II. Usar mais de um núcleo do computador no processamento do código;
 
-        III. Preparar o código para que pudesse realizar o processo de conversão de cada imagem de forma síncrona.
+III. Preparar o código para que pudesse realizar o processo de conversão de cada imagem de forma síncrona.
 
 
 Após aplicar as melhorias no código, o objetivo da performace também foi atingido.
@@ -77,8 +77,8 @@ Obs.: Como disse, só tive tempo para trabalhar apenas 1 dias nele, portanto, mu
 
 Eu destaco alguns pontos nesse exercício que eu propus:
 
-    I. Ter um raciocínio crítico para poder chegar numa solução eficaz, mais do que pesquisas, foi necessário resgatar na memória informações de forma lógica para tal;
+I. Ter um raciocínio crítico para poder chegar numa solução eficaz, mais do que pesquisas, foi necessário resgatar na memória informações de forma lógica para tal;
 
-    II. A IA é muito eficaz, mas geralmente apenas responde exatamente o que lhe foi perguntado e algumas vezes pode dar códigos que contém alguns erros, mas ela é capaz de cruzar informações se você pedir isso.
+II. A IA é muito eficaz, mas geralmente apenas responde exatamente o que lhe foi perguntado e algumas vezes pode dar códigos que contém alguns erros, mas ela é capaz de cruzar informações se você pedir isso.
     
-    III. O Algoritmo serve para a finalidade de converter vídeos em arte 8 bit, mas poderia ser muito reaproveitado se no processo de conversão fossem aplicados efeitos diferentes.
+III. O Algoritmo serve para a finalidade de converter vídeos em arte 8 bit, mas poderia ser muito reaproveitado se no processo de conversão fossem aplicados efeitos diferentes.

@@ -41,7 +41,6 @@ Este é um projeto idealizado por mim voltado para a cultura 8 bit art. Visto qu
 
 # Veja exemplos de vídeos convertidos:
 
-<a href="https://www.youtube.com/shorts/2BafQtU3gvc"></a>
+[Vídeo 1](https://www.youtube.com/shorts/2BafQtU3gvc "Bloody Mary Dance | Jenna Ortega Meme")
+[Vídeo 2](https://www.youtube.com/shorts/ccbopuxU5es "Arabe dançando")
 
-<a href="https://www.youtube.com/shorts/ccbopuxU5es"></a>
-   

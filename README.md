@@ -60,13 +60,13 @@ O famoso meme do árabe dançando:
 [Vídeo 2](https://www.youtube.com/shorts/ccbopuxU5es "Arabe dançando")
 # 6.  Futuras melhorias
 
-    1. Organizar melhor este código;
-    2. Buscar outras maneiras de otimizá-lo;
-    3. Criar uma interface;
-    4. Buscar uma maneira de processá-lo na nuvem para que não consuma recursos do meu equipamento;
-    5. Falta adicionar o áudio pois no processo isso não é tratado
-    6. Criar métricas e raelizar testes para medir quanto tempo está sendo ganhado no algoritmo otimizado em relação ao que não está otimizado.
-    7. Criar uma estimativa de quanto tempo irá demorar para terminar o processo, pois atualmente eu apenas acompanho isso, nas informações do console.
+1. Organizar melhor este código;
+2. Buscar outras maneiras de otimizá-lo;
+3. Criar uma interface;
+4. Buscar uma maneira de processá-lo na nuvem para que não consuma recursos do meu equipamento;
+5. Falta adicionar o áudio pois no processo isso não é tratado
+6. Criar métricas e raelizar testes para medir quanto tempo está sendo ganhado no algoritmo otimizado em relação ao que não está otimizado.
+7. Criar uma estimativa de quanto tempo irá demorar para terminar o processo, pois atualmente eu apenas acompanho isso, nas informações do console.
 
 # 7. Espero poder contar com a sua ajuda para evoluir esse programa e criar novas funcionalidades e até mesmo um grande aplicativo!
 

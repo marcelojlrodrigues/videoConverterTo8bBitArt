@@ -44,3 +44,4 @@ Este é um projeto idealizado por mim voltado para a cultura 8 bit art. Visto qu
 [Vídeo 1](https://www.youtube.com/shorts/2BafQtU3gvc "Bloody Mary Dance | Jenna Ortega Meme")
 [Vídeo 2](https://www.youtube.com/shorts/ccbopuxU5es "Arabe dançando")
 
+Obs.: Os dois foram convertidos utilizando o mesmo algoritmo presente aqui nesse repositório!

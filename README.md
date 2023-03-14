@@ -2,6 +2,20 @@
 Este código converte vídeos para a arte 8 bit.
 This code convert any video to 8 bit art 
 
+<div style="display: flex;">
+
+<figure>
+<img style="padding: 8px;" src="imgs/frame_0300.png" width="100" alt="Exemplo de frame antes da conversão">
+<figcaption>Antes da conversão</figcaption>
+</figure>
+
+<figure>
+<img style="padding: 8px;" src="imgs/frame_0300_convertido.png" width="100" alt="Exemplo de frame depois da conversão">
+<figcaption>Após a conversão</figcaption>
+</figure>
+
+</div>
+
 ## Este projeto foi gerado com uso da inteligência artificial Chat-gpt-3 da OpenAI.
 
 ## A linguagem de programação escolhida foi a python, pois ela apresenta bibliotecas mais práticas para este fim.
@@ -53,11 +67,12 @@ Após aplicar as melhorias no código, o objetivo da performace também foi atin
 
 O vídeo do meme da dança da personagem Vandinha interpretado pela Jenna Ortege da séria netflix:
 
-- [Vídeo 1](https://www.youtube.com/shorts/2BafQtU3gvc "Bloody Mary Dance | Jenna Ortega Meme"){ :target="_blank"}
+- <a href="https://www.youtube.com/shorts/2BafQtU3gvc" target="_blank"> Vídeo 1 </a>
+
 
 O famoso meme do árabe dançando:
 
-- [Vídeo 2](https://www.youtube.com/shorts/ccbopuxU5es "Arabe dançando"){ :target="_blank"}
+- <a href="https://www.youtube.com/shorts/ccbopuxU5es" target="_blank"> Vídeo 2 </a>
 # 6.  Futuras melhorias
 
 1. Organizar melhor este código;

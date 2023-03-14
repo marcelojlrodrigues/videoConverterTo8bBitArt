@@ -54,4 +54,4 @@ E esse meme, que se tornou extremamente viral, do árabe dançando:
 
 Obs.: Os dois foram convertidos utilizando o mesmo algoritmo presente aqui nesse repositório! Como disse, só consegui trabalhar apenas 1 dias nele, portanto, muitas coisas precisam ser melhoradas, como não entendo muito de python, podem ser que hajam equívocos ou melhorias a serem feitas nesses códigos.
 
-
+## O que eu destaco nesse aprendizado, é que apesar de ter criado um algoritmo para converte-lo em arte 8 bit, de fato ele poderia ser convertido para outras finalidades, como por exemplo: vídeos p/b, videos cartoons, enfim, desde que exista um algoritmo que possa aplicar o efeito esperado, visto que o processamento dessa etapa leva muito tempo, já que cada segundo possa ter cerca de 60 frames.

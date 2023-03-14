@@ -6,7 +6,7 @@ This code convert any video to 8 bit art
 
 ## A linguagem de programação escolhida foi a python, pois ela apresenta bibliotecas mais práticas para este fim.
 
-# 1. Escopo
+# 1. O Escopo
 
 Este é um projeto idealizado por mim, voltado para a cultura 8 bit art. Visto que há muitas opções de se converter imagens, mas não vídeos, então pensei em uma maneira que pudesse converter vídeos inteiros, já que após pesquisar, não consegui opções que fizesse isso, e as que encontrei não funcionavam bem. Diante dessa necessidade, cheguei no seguinte raciocínio:
 
@@ -68,7 +68,9 @@ O famoso meme do árabe dançando:
 6. Criar métricas e raelizar testes para medir quanto tempo está sendo ganhado no algoritmo otimizado em relação ao que não está otimizado.
 7. Criar uma estimativa de quanto tempo irá demorar para terminar o processo, pois atualmente eu apenas acompanho isso, nas informações do console.
 
-## 7. Espero poder contar com a sua contribuição para evoluir esse programa e criar novas funcionalidades e até mesmo um grande aplicativo!
+## 7. Força da comunidade
+
+Espero poder contar com a sua contribuição para evoluir esse programa e criar novas funcionalidades e até mesmo um grande aplicativo!
 
 
 # 8. O Aprendizado

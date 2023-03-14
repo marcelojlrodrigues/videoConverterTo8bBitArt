@@ -18,11 +18,11 @@ O arquivo de vídeo, nada mais é do que uma série de imagens sobrepostas em um
 
 Após feito isso, percebi que o processo poderia ser divido em 3 etapas:
 
-I. Pegar esse vídeo e extrair cada frame e armazena-los em uma pasta mantendo a ordem numerica sequencial para cada um deles, pois isso seria importante no futuro. Isso é feito pelo script do passo 1;
+1. Pegar esse vídeo e extrair cada frame e armazena-los em uma pasta mantendo a ordem numerica sequencial para cada um deles, pois isso seria importante no futuro. Isso é feito pelo script do passo 1;
 
-II. Após isso deveria pegar cada um desses frames e executar um outro algoritmo que pudesse aplicar o efeito respectivo em cada deles, armazenando-as em uma outra pasta. Para aplicar os efeitos, precisei pesquisar e testar algumas bibliotecas que pudessem, então encontrei uma que me agradou mais. Isso é feito pelo script do passo 2;
+2. Após isso deveria pegar cada um desses frames e executar um outro algoritmo que pudesse aplicar o efeito respectivo em cada deles, armazenando-as em uma outra pasta. Para aplicar os efeitos, precisei pesquisar e testar algumas bibliotecas que pudessem, então encontrei uma que me agradou mais. Isso é feito pelo script do passo 2;
 
-III. E por último, após aplicado o efeito em todos os frames, só era preciso, juntar de volta eles para gerar novamente o vídeo, agora convertido, preservando o fps original. :-). (Script passo 3).
+3. E por último, após aplicado o efeito em todos os frames, só era preciso, juntar de volta eles para gerar novamente o vídeo, agora convertido, preservando o fps original. :-). (Script passo 3).
 
 
 
@@ -39,11 +39,11 @@ Mas não era o suficiente, pois o processo estava demsiadamente demorado, então
 
 Como após chegar na primeira versão funcional, percebi que o seu processamento estava demorando muito para finalizar, busquei maneiras de otimizar o tempo de processamento com ajuda da IA, aplicamos algumas soluções:
 
-I. Diminuir a qualidade da imagem convertida;
+1. Diminuir a qualidade da imagem convertida;
 
-II. Usar mais de um núcleo do computador no processamento do código;
+2. Usar mais de um núcleo do computador no processamento do código;
 
-III. Preparar o código para que pudesse realizar o processo de conversão de cada imagem de forma síncrona.
+3. Preparar o código para que pudesse realizar o processo de conversão de cada imagem de forma síncrona.
 
 
 Após aplicar as melhorias no código, o objetivo da performace também foi atingido.
@@ -53,11 +53,11 @@ Após aplicar as melhorias no código, o objetivo da performace também foi atin
 
 O vídeo do meme da dança da personagem Vandinha interpretado pela Jenna Ortege da séria netflix:
 
-[Vídeo 1](https://www.youtube.com/shorts/2BafQtU3gvc "Bloody Mary Dance | Jenna Ortega Meme")
+- [Vídeo 1](https://www.youtube.com/shorts/2BafQtU3gvc "Bloody Mary Dance | Jenna Ortega Meme")
 
 O famoso meme do árabe dançando:
 
-[Vídeo 2](https://www.youtube.com/shorts/ccbopuxU5es "Arabe dançando")
+- [Vídeo 2](https://www.youtube.com/shorts/ccbopuxU5es "Arabe dançando")
 # 6.  Futuras melhorias
 
 1. Organizar melhor este código;
@@ -68,17 +68,19 @@ O famoso meme do árabe dançando:
 6. Criar métricas e raelizar testes para medir quanto tempo está sendo ganhado no algoritmo otimizado em relação ao que não está otimizado.
 7. Criar uma estimativa de quanto tempo irá demorar para terminar o processo, pois atualmente eu apenas acompanho isso, nas informações do console.
 
-# 7. Espero poder contar com a sua ajuda para evoluir esse programa e criar novas funcionalidades e até mesmo um grande aplicativo!
+## 7. Espero poder contar com a sua contribuição para evoluir esse programa e criar novas funcionalidades e até mesmo um grande aplicativo!
 
-
-Obs.: Como disse, só tive tempo para trabalhar apenas 1 dias nele, portanto, muitas coisas precisam ser melhoradas, como não entendo muito de python, podem ser que hajam equívocos, erros ou apenas melhorias mesmo a serem feitas no código.
 
 # 8. O Aprendizado
 
 Eu destaco alguns pontos nesse exercício que eu propus:
 
-I. Ter um raciocínio crítico para poder chegar numa solução eficaz, mais do que pesquisas, foi necessário resgatar na memória informações de forma lógica para tal;
+1. Ter um pensamento crítico para poder chegar numa solução eficaz, mais do que pesquisas, foi necessário resgatar na lembranças simples na memória;
 
-II. A IA é muito eficaz, mas geralmente apenas responde exatamente o que lhe foi perguntado e algumas vezes pode dar códigos que contém alguns erros, mas ela é capaz de cruzar informações se você pedir isso.
+2. A IA é muito eficaz, mas geralmente apenas responde exatamente o que lhe foi perguntado e algumas vezes pode dar códigos que contém alguns erros, mas ela é capaz de cruzar informações se você pedir isso.
     
-III. O Algoritmo serve para a finalidade de converter vídeos em arte 8 bit, mas poderia ser muito reaproveitado se no processo de conversão fossem aplicados efeitos diferentes.
+3. O Algoritmo serve para a finalidade de converter vídeos em arte 8 bit, mas poderia ser muito reaproveitado se no processo de conversão fossem aplicados efeitos diferentes.
+
+# 9. Considerações finais
+
+Como disse, só tive tempo para trabalhar apenas 1 dias nele, portanto, muitas coisas precisam ser melhoradas, como não entendo muito de python, podem ser que hajam equívocos, erros ou apenas melhorias mesmo a serem feitas no código.
